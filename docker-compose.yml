@@ -1,6 +1,6 @@
 services:
   espforge:
-    image: ghcr.io/mo3he/espforge:latest
+    image: gky008/ESPHOME-EDIT:latest
     ports:
       - "8080:80"
     restart: unless-stopped
